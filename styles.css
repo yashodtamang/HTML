@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#headerWrap {
+    width: 1200px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.logoWrap {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    float: left;
+}
+
+.logoWrap img {
+    width: 100%;
+    height: 100%;
+}
+
+.bannerWrap {
+    width: 1000px;
+    height: 200px;
+    float: right;
+    background-color: cadetblue;
+    text-align: center;
+    margin-top: 0px;
+    text-justify: 10px;
+}
+
+#menuWrap {
+    width: 1200px;
+    height: 80px;
+    margin: 0 auto;
+    background-color: brown;
+}
+
+#menuWrap ul {
+    padding-top: 25px;
+}
+
+#menuWrap ul li {
+    list-style: none;
+    float: left;
+    padding-right: 10px;
+}
+
+#menuWrap ul li a {
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+#menuWrap ul li a:hover {
+    background-color: aqua;
+}
+
+#introWrap {
+    width: 1200px;
+    height: auto;
+    margin: 50px auto;
+    display: flex;
+}
+
+.introBox {
+    width: 500px;
+    padding: 50px;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.introBox h2 {
+    text-transform: capitalize;
+}
+
+.introBox img {
+    width: 30%;
+    margin-right: 10px;
+}
+
+#programWrap {
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.programBox {
+    width: 400px;
+    height: auto;
+    padding: 50px;
+}
+
+#footerWrap {
+    width: 1200px;
+    height: 400px;
+    margin: 0 auto;
+    background-color: #2e2f2f;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#footerWrap p {
+  width: 100px;
+  margin: 0px;
+  margin-left: 1px;
+    color: white;
+    font-size: 18px;
+}
+
+#footerCredentials {
+    width: 1200px;
+    height: 80px;
+    margin: 0 auto;
+    background-color: #000;
+}
